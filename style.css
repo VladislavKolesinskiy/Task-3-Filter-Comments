@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html, body {
+    background: rgb(74, 216, 255);
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.btnb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    color: rgb(255, 189, 67);
+    border-radius: 50px;
+    border: solid rgb(255, 189, 67) 3px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background: blue;
+}
+.commentsTable, .filterCommentsTable {
+    margin: 25px;
+    width: 500px;
+    height: 100%;
+    background: rgb(255, 189, 67);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    font-size: 40px;
+}
+p {
+    font-size: 30px;
+}
